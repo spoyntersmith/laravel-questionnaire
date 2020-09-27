@@ -1,0 +1,14 @@
+{
+    "name": "pentangle/laravel-questionnaire",
+    "description": "A robust form system which records responses to questionnaires",
+    "require-dev": {
+        "phpunit/phpunit": "^9.3"
+    },
+    "authors": [
+        {
+            "name": "sean.poynter-smith",
+            "email": "sean.poynter-smith@pentangletechnology.co.uk"
+        }
+    ],
+    "require": {}
+}
