@@ -10,5 +10,20 @@
             "email": "sean.poynter-smith@pentangletechnology.co.uk"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Pentangle\\Questionnaire\\": "src"
+        },
+        "classmap": [
+            "database/seeds",
+            "database/factories"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Pentangle\\Questionnaire\\Test\\": "tests"
+        }
+    },
     "require": {}
 }
